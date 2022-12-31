@@ -1,23 +1,5 @@
-; ; (atom 23.5)
-; ; (list 1 2 3)
-; (format t "Hello, world!")
+(write-line "Hello, World"); this is a simple lisp command
 
-; ; (let (message "Hello, world!"))
-; ;   (print message))
-; ; )
+(write-line "another sentence")
 
-; ; (print message)
-
-; (defparameter *global* "Dynamically scoped")
-; (defvar *global2*) ; does not require initial value
-
-; (print *global*
-
-(defconstant PI 3.141592) ; defconstant creates an immutable object
-
-(defun circum-size(rad))
-    "Returns the circumference of a circle with radius RAD"
-    (* 2 PI rad)
-)
-
-(mapcar #'circum-size (list 5 10 20)))
+;here is a comment
