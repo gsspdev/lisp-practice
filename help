@@ -1,0 +1,15 @@
+(defvar x 10)
+(defvar y 10)
+(defvar ch 0)
+(defvar n 10)
+(defvar bg 0)
+(defvar r 10)
+
+(print (type-of x))
+(print (type-of y))
+(print (type-of n))
+(print (type-of ch))
+(print (type-of bg))
+(print (type-of r))
+
+
